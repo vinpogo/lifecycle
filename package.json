@@ -1,0 +1,15 @@
+{
+  "name": "@vingy/lifecycle",
+  "version": "1.0.0",
+  "description": "A package to test whether you are prone to supply chain attacks.",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "echo \"running the preinstall script\" && exit 1",
+    "install": "echo \"running the install script\" && exit 1",
+    "postinstall": "echo \"running the postinstall script\" && exit 1"
+  },
+  "keywords": [],
+  "author": "vingy",
+  "license": "MIT",
+  "packageManager": "pnpm@10.20.0"
+}
